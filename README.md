@@ -7,7 +7,7 @@ Created to help sending emails created from excel reports. An example of how to 
 ```
 import os
 from send_reports_email import create_reports
-from send_reports_email import send_email
+
 
 save_location = r"~/save_test"
 extension = ".xlsx"
@@ -24,6 +24,7 @@ file.delete_original_file(file.original_file)
 ## To email that created file
 
 ```
+from send_reports_email import send_email
 
 emailto = "test@gmail.com"
 subject = "Planned Giving Interest Update " + date

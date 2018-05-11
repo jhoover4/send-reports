@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d9fe2d1-3471-4d22-aa55-322f44f7b3ec" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/README.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/README" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -2189,17 +2189,20 @@
       <file leaf-file-name="create_reports.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/create_reports.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
+            <state relative-caret-position="85">
               <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="306">
+                <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -2207,8 +2210,8 @@
       <file leaf-file-name="example.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/example.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="13" column="46" lean-forward="true" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+            <state relative-caret-position="170">
+              <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -2280,6 +2283,7 @@
         <option value="$PROJECT_DIR$/send_email.py" />
         <option value="$PROJECT_DIR$/example.py" />
         <option value="$PROJECT_DIR$/README.txt" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -2463,23 +2467,37 @@
       <option name="project" value="LOCAL" />
       <updated>1526064140508</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Changed README to markdown.">
+      <created>1526064506831</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1526064506831</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Fixed README error.">
+      <created>1526064549050</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1526064549050</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17542748" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17542748" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32928476" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.34724092" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32793522" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5003167" side_tool="true" weight="0.32793522" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49968335" visible="true" weight="0.32793522" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.35762483" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34724092" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24952501" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32928476" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39838493" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32928476" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39838493" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24967907" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -2522,7 +2540,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit." />
     <MESSAGE value="Updates before push to github." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updates before push to github." />
+    <MESSAGE value="Changed README to markdown." />
+    <MESSAGE value="Fixed README error." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed README error." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2641,7 +2661,7 @@
     <entry file="file://$PROJECT_DIR$/email_login.py" />
     <entry file="file://$PROJECT_DIR$/create_reports.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
+        <state relative-caret-position="85">
           <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
         </state>
       </provider>
@@ -2657,15 +2677,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/example.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="13" column="46" lean-forward="true" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+        <state relative-caret-position="170">
+          <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="306">
+            <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
